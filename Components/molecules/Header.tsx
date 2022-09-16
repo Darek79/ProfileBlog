@@ -1,5 +1,5 @@
 import type { HTMLAttributes } from 'react';
-interface HeaderI extends HTMLAttributes<HTMLDivElement> {
+export interface HeaderI extends HTMLAttributes<HTMLDivElement> {
     title?: string;
     description?: string;
     restH2?: HTMLAttributes<HTMLElement>;

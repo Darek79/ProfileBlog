@@ -2,7 +2,7 @@ import { Box, Header, ImageWrapped, HamburgerSVG } from 'Components';
 
 export default function Layer1(): JSX.Element {
     return (
-        <Box className="bg-layer1Grey p-3 sm:p-10">
+        <Box className="bg-layer1Grey py-10 px-3">
             <Box className="flex">
                 <HamburgerSVG className="w-[40px] m-auto" />
             </Box>
