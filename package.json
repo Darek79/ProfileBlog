@@ -10,6 +10,8 @@
     "pretty": "prettier --write \"./**/*.{js,ts,tsx,json}\""
   },
   "dependencies": {
+    "@react-spring/parallax": "^9.5.4",
+    "framer-motion": "^7.3.4",
     "next": "12.2.5",
     "next-sanity": "^0.8.2",
     "react": "18.2.0",
