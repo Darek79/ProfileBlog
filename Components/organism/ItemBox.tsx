@@ -8,7 +8,7 @@ interface ItemBoxI extends HTMLAttributes<HTMLDivElement> {
     pProps?: HTMLAttributes<HTMLElement>;
     spanProps?: HTMLAttributes<HTMLElement>;
     spanContent?: string;
-    pContent?: string;
+    pContent?: number | string;
 }
 
 export default function ItemBox({

@@ -10,6 +10,9 @@
 
 @layer components {
     .layer2TopHeader {
-        @apply font-Rozha font-medium leading-[3rem] text-layer1Grey text-[3.75rem];
+        @apply font-Rozha font-medium leading-[3rem] sm:leading-[4rem] text-layer1Grey text-[3.75rem];
+    }
+    .maxWidthPage {
+        @apply max-w-screen-2xl;
     }
 }
