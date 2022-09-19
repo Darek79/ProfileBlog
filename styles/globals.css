@@ -15,4 +15,10 @@
     .maxWidthPage {
         @apply max-w-screen-2xl;
     }
+    .pageWrapperOutside {
+        @apply w-full flex flex-col items-center;
+    }
+    .pageWrapperInside {
+        @apply maxWidthPage w-full sm:h-screen py-10 px-3 sm:px-10;
+    }
 }
